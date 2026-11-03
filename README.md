@@ -13,7 +13,7 @@ Available in **5 languages**: Bulgarian, English, French, Turkish, Spanish.
 | 🇬🇧 English | [`skills/en`](skills/en) | complete |
 | 🇫🇷 Français | [`skills/fr`](skills/fr) | complete |
 | 🇹🇷 Türkçe | [`skills/tr`](skills/tr) | complete |
-| 🇪🇸 Español | [`skills/es`](skills/es) | in progress |
+| 🇪🇸 Español | [`skills/es`](skills/es) | complete |
 
 Every language folder has the same skill names, so you can point an agent at
 the folder for the language you want it to work in.
@@ -73,6 +73,33 @@ Hermes picks it up on the next turn. With any other agent, just read
 Pick the language folder that matches how you want the agent to talk to you.
 The technical content (commands, paths, workflows) is the same in all of them;
 only the explanatory prose is translated.
+
+## Verifying the repository
+
+Two scripts check the tree. Both exit non-zero on failure, so they drop
+straight into CI:
+
+```bash
+python3 tools/verify_structure.py    # parity, frontmatter, leaks
+python3 tools/verify_translations.py # translations are really translated
+```
+
+What they enforce:
+
+| Check | Script |
+|---|---|
+| Every language has the same skill set | `verify_structure.py` |
+| Every skill has the same file count in all languages | `verify_structure.py` |
+| `name:` values identical across languages | `verify_structure.py` |
+| No Cyrillic left in the translations | `verify_structure.py` |
+| Every `description:` is ≤ 60 characters | `verify_structure.py` |
+| No secrets, credentials, hostnames or personal data | `verify_structure.py` |
+| Descriptions are not just copied English | `verify_translations.py` |
+| Body headings are translated, not left in English | `verify_translations.py` |
+
+`nuxt-framework` is exempt from the translation checks: it is upstream Nuxt
+documentation (MIT), already in English, copied verbatim into every language
+folder.
 
 ## Notes on the content
 

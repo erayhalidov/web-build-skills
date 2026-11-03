@@ -1,4 +1,6 @@
 __pycache__/
 *.pyc
 fix_cyr.py
+fix_desc.py
 verify.py
+verify_lang.py

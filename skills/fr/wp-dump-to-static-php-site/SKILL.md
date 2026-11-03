@@ -1,6 +1,6 @@
 ---
 name: wp-dump-to-static-php-site
-description: Rebuild a dead WordPress site from its .sql dump.
+description: "Reconstruire un WordPress mort depuis son dump .sql."
 ---
 
 # Dump SQL WordPress → site en PHP simple

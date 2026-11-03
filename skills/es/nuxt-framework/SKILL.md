@@ -1,6 +1,6 @@
 ---
 name: nuxt-framework
-description: "Use for Nuxt 4 work: routing, SSR, Nitro, modules, deploy."
+description: "Úsala para Nuxt 4: rutas, SSR, Nitro, módulos, despliegue."
 version: 1.0.0
 author: Nuxt community skills + Hermes
 license: MIT

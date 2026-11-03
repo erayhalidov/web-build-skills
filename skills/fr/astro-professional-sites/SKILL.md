@@ -1,6 +1,6 @@
 ---
 name: astro-professional-sites
-description: Use when building an Astro site (i18n, SEO, CF Pages).
+description: "À utiliser pour créer un site Astro (i18n, SEO, CF Pages)."
 ---
 
 # Astro — sites professionnels

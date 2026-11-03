@@ -1,6 +1,6 @@
 ---
 name: opencart
-description: Operate OpenCart 2.x stores (themes, cleanup, debugging).
+description: "Gérer des boutiques OpenCart 2.x (thèmes, nettoyage, debug)."
 ---
 
 # Opérations OpenCart 2.x

@@ -1,6 +1,6 @@
 ---
 name: static-product-shop
-description: "Build static shops/catalogs (HTML+JS+PHP) from CSV/JSON."
+description: "Boutiques/catalogues statiques (HTML+JS+PHP) depuis CSV."
 ---
 
 # Static Product Shop / Catalog Frontend

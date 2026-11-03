@@ -1,6 +1,6 @@
 ---
 name: qwik-framework
-description: Build/deploy Qwik + Qwik City apps.
+description: "Créer et déployer des apps Qwik + Qwik City."
 ---
 
 # Qwik (Builder.io) — installation et utilisation

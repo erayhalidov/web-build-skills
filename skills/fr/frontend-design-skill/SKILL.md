@@ -1,6 +1,6 @@
 ---
 name: frontend-design-skill
-description: "Use when designing or reviewing frontend layout and CSS."
+description: "Concevoir ou revoir le layout frontend et le CSS."
 version: 1.0.0
 author: Hermes Agent
 license: MIT

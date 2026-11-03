@@ -1,6 +1,6 @@
 ---
 name: seo-audit
-description: "Use when auditing or fixing a site's SEO."
+description: "À utiliser pour auditer ou corriger le SEO d'un site."
 metadata:
   version: 2.0.1
 ---

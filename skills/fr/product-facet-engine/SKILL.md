@@ -1,6 +1,6 @@
 ---
 name: product-facet-engine
-description: Use when catalogue filters must come from sparse feed data.
+description: "Filtres catalogue depuis des feeds pauvres en données."
 ---
 
 # Product facet engine — de vrais filtres sur des données fournisseur éparses
